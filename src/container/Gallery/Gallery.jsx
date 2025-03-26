@@ -19,12 +19,12 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id="news">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type="button" className="custom__button">View More</button>
+        <SubHeading title="Foto Gallerie" />
+        <h1 className="headtext__cormorant">Alles neue</h1>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Hier ein Einblick in unsere Küche.</p>
+        <button type="button" className="custom__button">Siehe Mehr</button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

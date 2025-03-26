@@ -22,7 +22,18 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+      "rules": {
+        "no-unused-vars": "warn"
+      },
+      "overrides": [
+        {
+          "files": ["**/*.ts?(x)"],
+          "rules": {
+            "max-len": "warn"
+          }
+        }
+      ]
   },
   "browserslist": {
     "production": [
@@ -44,4 +55,6 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0"
   }
+  
 }
+

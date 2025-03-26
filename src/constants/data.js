@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const pizza = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Pizza Margherita',
+    price: '11€',
+    tags: 'mit Tomatensauce & Basilikum ',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Pizza Salami',
+    price: '12,50€',
+    tags: 'mit Tomatensauce, Mozzarella & Salami',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Pizza Funghi',
+    price: '12,50€',
+    tags: 'mit Tomatensauce, Mozzarella & frischen Champignons',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Pizza Prosciutto',
+    price: '12,50€',
+    tags: 'mit Tomatensoße, Procuitto Crudo, Feta & Mozzarella',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Pizza Mozarella',
+    price: '12,50€',
+    tags: 'mit Tomatensauce, Mozzarella & Oregano',
   },
 ];
 
-const cocktails = [
+const pasta = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Pasta Napoli',
+    price: '8,50€',
+    tags: 'mit frischen Tomaten, Knoblauch, Basilikum & Olivenöl',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Pasta Bolognese',
+    price: '9,50€',
+    tags: 'mit hausgemachter Hackfleischsoße, Tomaten & Parmesan',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Pasta Pollo',
+    price: '10,50€',
+    tags: 'mit Hähnchen, Sahnesoße, Pilzen & Parmesan',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Pasta Scampi',
+    price: '11,50€',
+    tags: 'mit Garnelen, Knoblauch, Weißwein & Petersilie',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Pasta Arrabiata',
+    price: '9,50€',
+    tags: 'mit scharfer Tomatensoße, Chili, Knoblauch & Pecorino',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { pizza, pasta, awards };

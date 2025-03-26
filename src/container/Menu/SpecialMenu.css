@@ -19,6 +19,7 @@
 }
 
 .app__specialMenu-menu_heading {
+    margin-right: 4rem;
     font-family: var(--font-base);
     font-weight: 600;
     font-size: 45px;
